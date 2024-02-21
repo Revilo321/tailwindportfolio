@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="./output.css" rel="stylesheet" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body style="font-family: Roboto, sans-serif" class="bg-gray-300">
+    <!-- Header -->
+
+    <header class="bg-gray-300 max-w-screen-xl mx-auto px-4 py-6">
+      <nav class="">
+        <ul
+          style="font-family: 'Roboto Mono', monospace"
+          class="flex justify-around font-semibold">
+          <li class="">
+            <a href="#projects" class="transition-all hover:text-blue-500"
+              >Projects</a
+            >
+          </li>
+          <li class="">
+            <a href="#contact" class="transition-all hover:text-blue-500"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section
+      class="flex flex-col-reverse sm:flex-row sm:justify-between lg:min-h-screen bg-gray-300 px-8 sm:px-16 py-4 max-w-screen-xl mx-auto">
+      <div class="sm:w-3/5">
+        <p
+          style="font-family: 'Roboto Mono', monospace"
+          class="text-blue-500 font-semibold">
+          Hi, my name is
+        </p>
+        <h2 class="text-4xl lg:text-5xl xl:text-6xl font-bold mt-3 lg:mt-7">
+          OLIVER ANDERSEN.
+        </h2>
+        <h2
+          class="text-3xl lg:text-4xl xl:text-5xl font-bold text-blue-500 mt-3 lg:mt-7">
+          Full-Stack developer
+        </h2>
+        <p class="mt-6 lg:mt-10 max-w-md">
+          I have a AP degree in Computer Science. Currently I am focused on
+          becoming a Next.js expert <br />
+          I love to build products with focus on optimization and loading times
+          <br />
+        </p>
+        <div class="mt-12">
+          <a
+            href="#skills"
+            style="font-family: 'Roboto Mono', monospace"
+            class="px-6 py-3 text-blue-500 border-2 border-blue-500 font-bold transition-all hover:bg-blue-400 rounded-md"
+            >Check out My Skills !</a
+          >
+        </div>
+        <div class="mt-12">
+          <ul class="flex gap-4">
+            <li class="mr-2 flex justify-center items-center">
+              <a
+                href="https://www.linkedin.com/in/oliver-andersen-b7a744231/"
+                target="_blank"
+                class="w-[35px] h-[35px]">
+                <ion-icon
+                  name="logo-linkedin"
+                  class="w-[35px] h-[35px] transition-all hover:text-blue-500"></ion-icon>
+              </a>
+            </li>
+            <li class="mr-2 flex justify-center items-center">
+              <a
+                href="https://github.com/Revilo321/"
+                target="_blank"
+                class="w-[35px] h-[35px]">
+                <ion-icon
+                  name="logo-github"
+                  class="w-[35px] h-[35px] transition-all hover:text-blue-500"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section
+      class="bg-gray-300 px-8 sm:px-16 py-16 max-w-screen-xl mx-auto"
+      id="skills">
+      <div class="">
+        <div class="flex justify-center items-center gap-12 pb-12">
+          <div class="h-px flex-1 bg-blue-500 hidden sm:block"></div>
+          <h2 class="text-4xl font-bold">Tech Stack</h2>
+          <div class="h-px flex-1 bg-blue-500 hidden sm:block"></div>
+        </div>
+        <div
+          class="grid grid-cols-3 sm:grid-cols-5 gap-12"
+          style="font-family: 'Roboto Mono', monospace">
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="../images/icons8-next.js.svg"
+              alt="nextjs icon"
+              class="w-24 h-24" />
+            <p class="font-semibold">NextJS</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="../images/tailwind-css.svg"
+              alt="tailwind css icon"
+              class="w-24 h-24" />
+            <p class="font-semibold text-center">Tailwind CSS</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="../images/icons8-react-80.svg"
+              alt="javascript icon"
+              class="w-24 h-24" />
+            <p class="font-semibold">React</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="../images/icons8-css3-96.svg"
+              alt="css icon"
+              class="w-24 h-24" />
+            <p class="font-semibold">CSS</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="../images/icons8-javascript-96.svg"
+              alt="javascript icon"
+              class="w-24 h-24" />
+            <p class="font-semibold">JavaScript</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="../images/icons8-html-5-96.svg"
+              alt="html icon"
+              class="w-24 h-24" />
+            <p class="font-semibold">HTML</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section
+      class="bg-gray-300 px-7 sm:px-14 py-16 max-w-screen-xl mx-auto"
+      id="projects">
+      <div class="flex items-center justify-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-blue-500 hidden sm:block"></div>
+        <h2 class="text-4xl font-bold text-center">Some Things I’ve Built</h2>
+        <div class="h-px flex-1 bg-blue-500 hidden sm:block"></div>
+      </div>
+
+      <div>
+        <!-- Project 1 -->
+        <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 mb-20">
+          <div
+            class="border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none">
+            <div
+              class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+              <div class="featured-project-img-01 transition-all duration-500">
+                <img
+                  src="../images/lemonade-stand.webp"
+                  alt="paytm clone"
+                  class="" />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+            <h2
+              class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">
+              01. Cocktail webshop
+            </h2>
+            <div
+              style="font-family: 'Roboto Mono', monospace"
+              class="sm:relative sm:right-[10%] lg:right-1/4">
+              <ul class="flex gap-4 sm:justify-end text-sm">
+                <li>React</li>
+                <li>Redux</li>
+                <li>Firebase</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
+            <div
+              class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+              <a
+                href="https://github.com/Revilo321/lemonade-stand"
+                target="_blank"
+                class="w-9 h-9">
+                <ion-icon
+                  name="logo-github"
+                  class="w-8 h-8 transition-all hover:text-blue-500"></ion-icon>
+              </a>
+              <a
+                href="https://lemonade-stand.vercel.app/"
+                target="_blank"
+                class="w-9 h-9">
+                <ion-icon
+                  name="desktop-outline"
+                  class="w-8 h-8 transition-all hover:text-blue-500"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact me-->
+
+    <section
+      class="bg-gray-300 px-7 sm:px-14 py-16 max-w-screen-xl mx-auto"
+      id="contact">
+      <div class="flex items-center justify-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-blue-500 hidden sm:block"></div>
+        <h2 class="text-4xl font-bold">Contact me</h2>
+        <div class="h-px flex-1 bg-blue-500 hidden sm:block"></div>
+      </div>
+
+      <div class="mt-12 flex justify-center">
+        <ul class="flex gap-4">
+          <li class="mr-2 flex justify-center items-center">
+            <a
+              href="mailto: oliver.andersen12@hotmail.com"
+              target="_blank"
+              class="w-[35px] h-[35px]">
+              <ion-icon
+                name="mail"
+                class="w-[35px] h-[35px] transition-all hover:text-blue-500"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a
+              href="https://www.linkedin.com/in/oliver-andersen-b7a744231/"
+              target="_blank"
+              class="w-[35px] h-[35px]">
+              <ion-icon
+                name="logo-linkedin"
+                class="w-[35px] h-[35px] transition-all hover:text-blue-500"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a
+              href="https://github.com/Revilo321/"
+              target="_blank"
+              class="w-[35px] h-[35px]">
+              <ion-icon
+                name="logo-github"
+                class="w-[35px] h-[35px] transition-all hover:text-blue-500"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
